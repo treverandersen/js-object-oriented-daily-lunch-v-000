@@ -20,6 +20,9 @@ class Customer {
     }
     store.customers.push(this)
   }
+  setEmployer(employer) {
+    this.employerId = employer.id
+  }
   meals() {
     return store.meals
   }
