@@ -55,7 +55,7 @@ class Meal {
 }
 
 class Delivery {
-  constructor(meal = {}, customer = {}) {
+  constructor(meal, customer) {
     this.id = deliveryId++
     if(meal) {
       this.mealId = meal.id
