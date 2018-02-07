@@ -13,8 +13,11 @@ let deliveryId = 0
 
 class Customer {
   constructor(name, employer) {
-    this.name = name
     this.id = customerId++
+    this.name = name
+    if(employer) {
+      this.employerId = employer.id
+    }
     store.customers.push(this)
   }
   meals() {
