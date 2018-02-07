@@ -83,9 +83,7 @@ class Employer {
     store.employers.push(this)
   }
   employees() {
-    return store.customers.find(customer => {
-      return customer.id == this.customerId;
-    });
+    return store.customers
   }
   deliveries() {
     return store.deliveries
