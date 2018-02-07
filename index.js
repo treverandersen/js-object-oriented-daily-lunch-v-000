@@ -30,9 +30,7 @@ class Customer {
     return store.deliveries
   }
   totalSpent() {
-    return this.meals().map(meal => {
-      return meal.price.reduce( (prev, curr) => prev + curr );
-    });
+    return meal.price.reduce( (prev, curr) => prev + curr );
   }
 }
 
