@@ -39,10 +39,10 @@ class Meal {
     store.meals.push(this)
   }
   deliveries() {
-
+    
   }
   customers() {
-    
+
   }
   static byPrice() {
     return store.meals.sort( (obj1, obj2) => {
