@@ -39,7 +39,7 @@ class Meal {
     store.meals.push(this)
   }
   deliveries() {
-    
+
   }
   customers() {
 
@@ -52,7 +52,7 @@ class Meal {
 }
 
 class Delivery {
-  constructor(meal, customer) {
+  constructor(meal = 1, customer) {
     this.id = deliveryId++
     this.mealId = meal.id
     this.customerId = customer.id
