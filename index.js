@@ -2,8 +2,7 @@ let store = {
   customers: [],
   meals: [],
   deliveries: [],
-  employers: [],
-  employees: []
+  employers: []
 };
 
 let customerId = 0
