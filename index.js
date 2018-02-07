@@ -42,7 +42,7 @@ class Meal {
     return store.deliveries
   }
   customers() {
-
+    return store.customers
   }
   static byPrice() {
     return store.meals.sort( (obj1, obj2) => {
