@@ -39,9 +39,7 @@ class Meal {
     store.meals.push(this)
   }
   deliveries() {
-    return store.deliveries.filter(delivery => {
-      return delivery.id == this.deliveryId;
-    });
+    return store.deliveries
   }
   customers() {
 
