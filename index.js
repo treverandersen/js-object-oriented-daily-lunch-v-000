@@ -82,8 +82,8 @@ class Employer {
     this.name = name
     store.employers.push(this)
   }
-  employees(n) {
-    store.employees.push(n)
+  employees() {
+    return store.customers
   }
   deliveries() {
     return store.deliveries
