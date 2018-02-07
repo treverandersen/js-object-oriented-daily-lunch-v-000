@@ -30,7 +30,7 @@ class Customer {
     return store.deliveries
   }
   totalSpent() {
-    return store.meals.price.reduce( (a, b) => a + b );
+    return store.meals.reduce( (a, b) => a + b );
   }
 }
 
