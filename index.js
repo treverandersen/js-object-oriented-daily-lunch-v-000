@@ -73,7 +73,7 @@ class Employer {
   constructor(name) {
     this.name = name
     this.id = employerId++
-    store.employers.push(this)
+    store.employees.push(this)
   }
   employees() {
     return store.employees
