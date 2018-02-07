@@ -22,7 +22,7 @@ class Customer {
     });
   }
   deliveries() {
-
+    return store.deliveries
   }
   totalSpent() {
     return this.meals().map(meal => {
