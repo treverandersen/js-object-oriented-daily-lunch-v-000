@@ -3,6 +3,7 @@ let store = {
   meals: [],
   deliveries: [],
   employers: [],
+  employees: []
 };
 
 let customerId = 0
@@ -75,15 +76,15 @@ class Employer {
     store.employers.push(this)
   }
   employees() {
-
+    return store.employees
   }
   deliveries() {
-
+    return store.deliveries
   }
   meals() {
-
+    return store.meals
   }
   mealTotals() {
-
+    return store.meals
   }
 }
